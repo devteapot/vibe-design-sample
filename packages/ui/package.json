@@ -1,0 +1,51 @@
+{
+  "name": "@morrow/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "src",
+    "DESIGN.md",
+    "tokens.json"
+  ],
+  "exports": {
+    ".": "./src/index.tsx",
+    "./styles.css": "./src/styles.css",
+    "./button": "./src/button.tsx",
+    "./badge": "./src/badge.tsx",
+    "./card": "./src/card.tsx",
+    "./text-field": "./src/text-field.tsx",
+    "./avatar": "./src/avatar.tsx",
+    "./tabs": "./src/tabs.tsx",
+    "./switch": "./src/switch.tsx",
+    "./dialog": "./src/dialog.tsx",
+    "./alert": "./src/alert.tsx",
+    "./select": "./src/select.tsx",
+    "./empty-state": "./src/empty-state.tsx",
+    "./sidebar": "./src/sidebar.tsx"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm --dts --external react --external react-dom && cp src/styles.css dist/styles.css",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.5",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "tsup": "8.5.0",
+    "typescript": "5.9.3",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "private": true
+}

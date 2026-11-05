@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vd-capture/
+*.local
+.DS_Store
+
+.next/
+*.tsbuildinfo

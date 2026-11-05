@@ -1,0 +1,14 @@
+{
+  "name": "morrow-sample",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
