@@ -15,7 +15,7 @@ The sibling tokens.json is the source inventory. CSS ships the same custom prope
 
 ## Components
 ### Button
-Use primary for the main action, secondary for alternatives, ghost for low emphasis, and danger for destructive actions. Do keep labels explicit. Do not use color alone to describe consequences. Sizes are sm, md, and lg; disabled blocks activation.
+Use primary for the main action, secondary for alternatives, ghost for low emphasis, and danger for destructive actions. Do keep labels explicit. Do not use color alone to describe consequences. Sizes are sm, md, and lg; disabled blocks activation. Buttons are pill-shaped with fully rounded corners.
 
 ### Badge
 Use neutral, green, amber, purple, or red for compact text statuses. Do include a label. Do not use as a button.
